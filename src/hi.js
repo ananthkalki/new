@@ -3,13 +3,12 @@ import React from "react";
 function hell() {
   
   const add= ()=>{
-    alert("hello");
+    console.log("hello");
   }
   return (
     <div>
       <button onClick={add}>bottun</button>
-    </div>
-        
+    </div>        
   );
 }
 
