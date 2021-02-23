@@ -1,9 +1,13 @@
 import React from "react";
-import hell from "./hi"
+import Say from './hi';
+import Hello from './sayHello';
 function App() {
+  
+
   return (
-    <div>
-      <hell />
+    <div>  
+      <Hello />
+      <Say />
     </div>
         
   );

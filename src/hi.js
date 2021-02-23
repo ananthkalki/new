@@ -1,15 +1,14 @@
 import React from "react";
 
-function hell() {
-  
-  const add= ()=>{
+function Say() {
+  const hello = () => {
     console.log("hello");
-  }
+  };
   return (
     <div>
-      <button onClick={add}>bottun</button>
-    </div>        
+        <button onClick={hello}>butt0n</button>
+    </div>       
   );
 }
 
-export default hell;
+export default Say;
